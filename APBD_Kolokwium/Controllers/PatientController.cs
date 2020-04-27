@@ -1,29 +1,27 @@
 ﻿using System;
-using System.Data.SqlClient;
-using APBD_Kolokwium.DTOs.Responses;
 using APBD_Kolokwium.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APBD_Kolokwium.Controllers
 {
     [ApiController]
-    [Route("api/medicaments")]
-    public class MedicamentsController: ControllerBase
+    [Route("api/patients")]
+    public class PatientController:ControllerBase
     {
         
         private IDbService _service;
 
-        public MedicamentsController(IDbService service)
+        public PatientController(IDbService service)
         {
             _service = service;
         }
-
-        [HttpGet("{id}")]
-        public IActionResult GetMedication(int id)
+        
+        [HttpDelete("{id}")]
+        public IActionResult deletePatient(int id)
         {
             try
             {
-                GetMedicamentResponse response = _service.GetMedication(id);
+                string response = _service.deletePatient(id);
                 return Ok(response);
             }
             catch (Exception e)
@@ -32,7 +30,6 @@ namespace APBD_Kolokwium.Controllers
             }
             
         }
-
         
     }
 }

@@ -11,6 +11,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="MedicamentsController.cs" t="Include" />
+          <e p="PatientController.cs" t="Include" />
         </e>
         <e p="DTOs" t="Include">
           <e p="Requests" t="Include" />
