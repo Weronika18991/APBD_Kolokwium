@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Weronika\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Weronika\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_APBD_Kolokwium.1429219939.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Weronika\Desktop\pjatk\4 semestr\APBD\Kolokwium\APBD_Kolokwium" t="IncludeFlat">
+      <e p="APBD_Kolokwium" t="IncludeRecursive">
+        <e p="APBD_Kolokwium.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="MedicamentsController.cs" t="Include" />
+        </e>
+        <e p="DTOs" t="Include">
+          <e p="Requests" t="Include" />
+          <e p="Responses" t="Include">
+            <e p="GetMedicamentResponse.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="Prescription.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APBD_Kolokwium.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IDbService.cs" t="Include" />
+          <e p="SqlServerMedicamentService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="APBD_Kolokwium.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
